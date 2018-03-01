@@ -1,0 +1,31 @@
+{
+  "name": "door-poster",
+  "version": "1.0.0",
+  "description": "Ancient church door bulletin board",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shanelenagh/door-postit-board.git"
+  },
+  "keywords": [
+    "Phaser",
+    "Multiplayer",
+    "game",
+    "Node.js",
+    "socket.io"
+  ],
+  "author": "Shane Lenagh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shanelenagh/door-postit-board/issues"
+  },
+  "homepage": "https://github.com/shanelenagh/door-postit-board#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^1.7.3"
+  }
+}
